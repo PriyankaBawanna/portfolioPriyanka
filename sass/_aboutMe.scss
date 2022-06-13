@@ -1,0 +1,63 @@
+.aboutMe {
+  display: flex;
+  flex-direction: row;
+  height: 40rem;
+  width: 100%;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+}
+.imgAboutMe {
+  display: block;
+  height: 30rem;
+  width: 90%;
+  margin: 1rem;
+  border-radius: 5px;
+}
+.introAboutMe {
+  display: flex;
+  height: auto;
+  width: 90%;
+  border: 1px solid black;
+}
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+}
+.intro {
+  color: rgb(195, 194, 194);
+}
+.img {
+  height: 100%;
+  width: 100%;
+}
+.introeducation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.link {
+  text-decoration: none;
+  color: aliceblue;
+}
+p {
+  color: aliceblue;
+  font-style: Sans-serif;
+}
+.footer {
+  background-color: rgb(27, 27, 27);
+  width: 100%;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 500px) {
+  .aboutMe {
+    display: flex;
+    flex-direction: column;
+    padding: 10rem;
+    background-color: black;
+  }
+}
